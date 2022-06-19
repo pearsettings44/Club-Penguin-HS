@@ -3,7 +3,7 @@
 *::after {
   box-sizing: border-box;
   margin: 0;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
 }
 
 #header {
@@ -20,6 +20,48 @@ a {
   color: white;
   font-weight: 700;
   font-style: normal;
-  letter-spacing: .2em;
+  letter-spacing: 0.2em;
   font-size: 11px;
+}
+
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: solid rgba(0, 0, 0, 0.2) 1px;
+  padding: 18px 30px 10px;
+  font-size: 14px;
+}
+
+#options {
+  display: flex;
+  gap: 14px;
+}
+
+#logo {
+  width: 1%;
+  margin: 0 auto;
+}
+
+select {
+  border: none;
+  outline: none;
+  scroll-behavior: smooth;
+  background-color: white;
+  color: rgb(99, 99, 99);
+  font-family: Courier New, Courier, monospace;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 11px;
+  letter-spacing: 0.2em;
+  padding: 4px;
+}
+
+#user,
+#search,
+#bag,
+#dropdown,
+#menu,
+#logo {
+  cursor: pointer;
 }
