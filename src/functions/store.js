@@ -66,10 +66,25 @@ function renderStore() {
     "$ 2",
   ];
 
+  const links = [
+    "https://bakerskateboards.com/collections/holiday-21/products/kader-logo-navy-b2-8-25",
+    "https://bakerskateboards.com/collections/holiday-21/products/theotis-logo-mandarin-b2-8-0",
+    "https://bakerskateboards.com/collections/holiday-21/products/spanky-logo-forest-b2-8-5",
+    "https://bakerskateboards.com/collections/holiday-21/products/circle-jerks-album-art-deck-9-6",
+    "https://bakerskateboards.com/collections/holiday-21/products/circle-jerks-tee-white",
+    "https://bakerskateboards.com/collections/holiday-21/products/capital-b-stripe-tee-green-yellow",
+    "https://bakerskateboards.com/collections/holiday-21/products/kamikaze-tee-black",
+    "https://bakerskateboards.com/collections/holiday-21/products/domination-tee-black",
+    "https://bakerskateboards.com/collections/holiday-21/products/times-new-black-snapback",
+    "https://bakerskateboards.com/collections/holiday-21/products/jolly-man-red-socks",
+    "https://bakerskateboards.com/collections/holiday-21/products/misty-flip-sticker",
+    "https://bakerskateboards.com/collections/holiday-21/products/circle-jerks-sticker",
+  ];
+
   let i = 0;
   items.forEach((item) => {
-    const placeholder = createHTMLelement("div", "", ["placeholder"], "");
-
+    const placeholder = createHTMLelement("a", "", ["placeholder"], "");
+    placeholder.href = links[i]
     /* image */
     const placeholder_img = createHTMLelement("img", "", ["skate_img"], "");
     placeholder_img.src = item;
