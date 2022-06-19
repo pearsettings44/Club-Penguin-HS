@@ -4,11 +4,12 @@ import { maindiv } from "../index";
 function renderStoreButton() {
   const buttonContainer = createHTMLelement("div", "btnContainer", "", "");
   const button = createHTMLelement(
-    "button",
+    "a",
     "storebutton",
     "",
     "VIEW ALL PRODUCTS"
   );
+  button.href = "https://bakerskateboards.com/collections/holiday-21";
   buttonContainer.appendChild(button);
   /* Append to the DOM */
   maindiv.appendChild(buttonContainer);
