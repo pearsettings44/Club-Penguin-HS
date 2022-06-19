@@ -153,3 +153,32 @@ select {
   z-index: 1;
   text-decoration: none;
 }
+
+/***************************/
+/*        footer           */
+/***************************/
+
+footer {
+  margin: 50px 80px;
+  display: flex;
+  flex-direction: column;
+}
+
+#brand {
+  color: #1c1b1b;
+  font-size: 11px;
+  font-family: Courier New, Courier, monospace;
+  font-weight: 700;
+  font-style: normal;
+  color: #1c1b1b;
+  transition: color 0.2s ease-in-out;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+#shopify {
+  color: #6a6a6a;
+  font-weight: 700;
+  font-size: 0.9rem;
+}
