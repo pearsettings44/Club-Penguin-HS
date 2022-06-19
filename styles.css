@@ -82,3 +82,44 @@ select {
   margin-top: 5rem;
   font-weight: 900;
 }
+
+/***************************/
+/*       store styles      */
+/***************************/
+
+#store {
+  margin-top: 4.9rem;
+  padding-left: 50px;
+  padding-right: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 40px 20px;
+  text-align: center;
+}
+
+#store img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.skate_txt {
+  margin-top: 18px;
+  margin-bottom: 8px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  font-style: normal;
+  color: #1c1b1b;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
+.skate_price {
+  color: #6a6a6a;
+  font-size: 0.95rem;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: 0.2em;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  margin-top: 10px;
+}
