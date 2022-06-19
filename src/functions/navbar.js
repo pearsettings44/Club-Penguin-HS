@@ -19,9 +19,12 @@ function renderNav() {
   navbar.appendChild(menu);
 
   /* logo */
-  const logo = createHTMLelement("div", "logo", "", "");
+  const logo = createHTMLelement("a", "logo", "", "");
   const logo_img = createHTMLelement("img", "", "", "");
+  const videoBaker = "https://bakerskateboards.com/";
   logo_img.src = Logo;
+  logo.href = videoBaker;
+  logo.target = "_blank";
   logo.appendChild(logo_img);
   navbar.appendChild(logo);
 
@@ -29,9 +32,9 @@ function renderNav() {
   const options = createHTMLelement("div", "options", "", "");
 
   /* dropdown menu */
-  const dropdown_container = createHTMLelement("div", "", "", "")
+  const dropdown_container = createHTMLelement("div", "", "", "");
   const dropdown = createHTMLelement("select", "dropdown", "", "");
-  dropdown_container.appendChild(dropdown)
+  dropdown_container.appendChild(dropdown); 
   options.appendChild(dropdown_container);
 
   const dropdown_options = ["USD", "CAD", "EUR", "GBP"];
