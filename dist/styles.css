@@ -123,3 +123,33 @@ select {
   text-transform: uppercase;
   margin-top: 10px;
 }
+
+/***************************/
+/*   store Button styles   */
+/***************************/
+
+#btnContainer {
+  margin: 100px;
+  text-align: center;
+}
+
+#storebutton {
+  color: #fff;
+  border-color: #1c1b1b;
+  position: relative;
+  display: inline-block;
+  padding: 14px 28px;
+  line-height: normal;
+  border-radius: 0;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0.2em;
+  font-family: Courier New, Courier, monospace;
+  font-weight: 700;
+  font-style: normal;
+  background-color: black;
+  transition: color 0.45s cubic-bezier(0.785, 0.135, 0.15, 0.86),
+    border 0.45s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+  z-index: 1;
+  text-decoration: none;
+}
