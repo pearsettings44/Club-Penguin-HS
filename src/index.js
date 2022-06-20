@@ -6,6 +6,10 @@ import { renderStoreButton } from "./functions/storeButton";
 import { renderMailingList } from "./functions/mailingList";
 import { renderFooter } from "./functions/footer";
 
+/*           GitHub pages deployment link          */
+/* https://pearsettings44.github.io/Baker-Clone-HS/ */
+
+
 /* Main div, contains everything */
 const maindiv = document.getElementById("content");
 renderAnnouncementBar();
