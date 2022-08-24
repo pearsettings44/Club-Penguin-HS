@@ -1,14 +1,14 @@
-![made-with-python](https://img.shields.io/badge/Made%20with-Javascript-yellow)
+![made-with-python](https://img.shields.io/badge/Made%20with-Javascript-lightyellow)
 
 <!-- LOGO -->
 <br />
 <h1>
 <p align="center">
-  <img src="https://play-lh.googleusercontent.com/i-0HlK6I-K5ZVI28HFa4iXz0T22Mg2WjQ4gMsEYvqmSNdifp2NE41ZiaUCavmbIimQ" alt="Logo" width="140" height="110">
-  <br>DinoBot
+  <img src="https://i.pinimg.com/originals/87/59/a2/8759a28598554bf1662636bed28ddb49.png" alt="Logo" width="140" height="110">
+  <br>Baker Clone
 </h1>
   <p align="center">
-    Play the Chrome Dino game using hand gestures or using a bot (WIP).
+    Baker Skateboards website clone.
     <br />
     </p>
 </p>
