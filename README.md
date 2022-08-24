@@ -4,11 +4,14 @@
 <br />
 <h1>
 <p align="center">
-  <img src="https://seeklogo.com/images/B/Baker_Skateboards-logo-09C7E1E537-seeklogo.com.png" alt="Logo" width="140" height="110">
+  <img src="https://seeklogo.com/images/B/Baker_Skateboards-logo-09C7E1E537-seeklogo.com.png" alt="Logo" width="180" height="90">
   <br>Baker Clone
 </h1>
   <p align="center">
     Baker Skateboards website clone.
+    <br />
+    </p>
+      <p align="center">
     https://pearsettings44.github.io/Baker-Clone-HS/
     <br />
     </p>
