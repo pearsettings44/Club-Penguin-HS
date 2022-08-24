@@ -4,19 +4,18 @@
 <br />
 <h1>
 <p align="center">
-  <img src="https://i.pinimg.com/originals/87/59/a2/8759a28598554bf1662636bed28ddb49.png" alt="Logo" width="140" height="110">
+  <img src="https://seeklogo.com/images/B/Baker_Skateboards-logo-09C7E1E537-seeklogo.com.png" alt="Logo" width="140" height="110">
   <br>Baker Clone
 </h1>
   <p align="center">
     Baker Skateboards website clone.
+    https://pearsettings44.github.io/Baker-Clone-HS/
     <br />
     </p>
 </p>
 <p align="center">
   <a href="#about-the-project">About The Project</a> •
-  <a href="#usage">How To Use</a> •
   <a href="#examples">Examples</a> •
-  <a href="#best-practice">Best Practice</a> •
 </p>  
 
 <p align="center">
@@ -25,47 +24,18 @@
 </p>                                                                                                                             
                                                                                                                                                       
 ## About The Project
-DinoBot is a Python script for playing the Dinosaur Game (also known as the Chrome Dino). It has the option to control the game with your hand through a video capture device, and the option to play it AFK using a bot. I'm aware that the bot has very poor performance, feel free to open an issue about that.
+Baker Clone is my last project for the HackerSchool club joining process. It is exactly what the name suggest, a clone of the Baker website (https://bakerskateboards.com/)
 
 ### Installation
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/pearsettings44/DinoBot
+   git clone https://github.com/pearsettings44/Baker-Clone-HS
    ```
-2. Install requirements
-   ```sh
-   pip install -r requirements.txt
-   ```
-3. Start the script (using -v or -b flag)
-   ```sh
-   python3 ./dinobot.py -v
-   ```
-
-## Usage
-```sh
-usage: dinobot.py [-h] [-b] [-v]
-
-optional arguments:
-  -h, --help   show this help message and exit
-  -b, --bot    play using a bot
-  -v, --video  play using video capture
-```
-To quit the script - press 'q'
 
 ## Examples
-![alt text](https://github.com/pearsettings44/DinoBot/blob/main/pic1.png?raw=true)
-<p align="center">Hand closed (No command).</p>
+![alt text](https://github.com/pearsettings44/Baker-Clone-HS/blob/main/pic1.png?raw=true)
+<p align="center">Website screenshot.</p>
 
-![alt text](https://github.com/pearsettings44/DinoBot/blob/main/pic2.png?raw=true)
-<p align="center">Index finger up (Jump).</p>
-
-![alt text](https://github.com/pearsettings44/DinoBot/blob/main/pic3.png?raw=true)
-<p align="center">Bot in action (should have used a gif :P)</p>
-
-
-## Best Practice
-For the most accurate results, here are some recommendation you should follow:
-- When using your video capture device of choice, make sure it has a decent amount of fps.
-- Make sure you're in a illuminated space, turn on desk lights or open the windows.
-- Try to keep your hands facing the camera in a good angle.
+![alt text](https://github.com/pearsettings44/Baker-Clone-HS/blob/main/pic2.png?raw=true)
+<p align="center">Website screenshot.</p>
