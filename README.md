@@ -9,7 +9,6 @@
 </h1>
   <p align="center">
     Baker Skateboards website clone.
-    <br />
     </p>
       <p align="center">
     https://pearsettings44.github.io/Baker-Clone-HS/
